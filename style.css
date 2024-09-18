@@ -1,0 +1,90 @@
+* {
+    margin: auto;
+    font-family: 'Trebuchet MS';
+    font-size: 20px;
+}
+
+a {
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    height: 350px;
+    filter: brightness(80%);
+    background-image: url("https://img.freepik.com/fotos-gratis/arara-azul-close-up-em-uma-palmeira-no-habitat-natural_475641-2089.jpg?t=st=1724032311~exp=1724035911~hmac=01125b71c685b8104f5d2660b2f77d1aadcd639065e5813e659f67e223102335&w=740");
+    background-position: center;
+    background-size: cover;
+    color: #F2F2F2;
+}
+
+footer {
+    display: flex;
+    height: 100px;
+    background-color: #1E2601;
+    color: #F2F2F2;
+}
+
+section {
+    padding:40px;
+}
+
+.info-section {
+    display: flex;
+    text-align: justify;
+    background-color: #1E2601;
+    color: #F2F2F2;
+    height: 400px;
+}
+
+.info-section > h2 {
+    width: 300px;
+}
+
+.info-section > p {
+    width: 800px;
+}
+
+.text-title {
+    font-size: 50px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.photo-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color:#1E2601;
+
+}
+
+.image-card {
+    text-align: center;
+    margin:20px;
+    width: 340px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    object-fit: cover;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+.image-card > img {
+    width: 340px;
+    height: 340px;
+    border-radius: 10px 10px 0px 0px;
+    object-fit: cover;
+}
+
+.image-card > figcaption {
+    
+    padding: 5px;
+}
+
+.image-card:hover {
+	transform: scale(1.05);
+	transition: all ease 300ms;
+}
