@@ -3,16 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
     <title>Bird Photos Website</title>
 </head>
 <body>
     <header>
         <h2 class="text-title">Bird Photos</h2>
+        <nav>
+            <a href="#info-section">Sobre</a>
+            <a href="#gallery">Fotos</a>
+        </nav>
     </header>
 
     <main>
-        <section class="info-section">
+        <section id="img-section">
+        </section>
+
+        <section id="info-section">
             <h2 class="text-title">Bem-vindo, observadores de aves!</h2>
             <p>
                 O Bird Photos é um site dedicado à observação de aves, onde você pode explorar uma coleção de fotos de pássaros de diversas espécies. 
@@ -20,10 +27,9 @@
             </p>
         </section>
 
-        <section>
+        <section id="gallery">
             <h2 class="text-title">Fotos</h2>
-            
-            <figure class="photo-section">
+            <div id="photo-section">
                 <figure class="image-card">
                     <img src="https://img.freepik.com/fotos-gratis/foto-vertical-de-um-melro-de-asa-vermelha-em-um-galho-cantando_181624-10985.jpg?t=st=1724080092~exp=1724083692~hmac=b4594956526745c0157c8e7ce4d59f7d02a5e293c593266763a73d0276e45bfc&w=360" alt="Graúna-de-asa-vermelha">
                     <figcaption>Graúna-de-asa-vermelha</figcaption>
@@ -144,7 +150,7 @@
                     <img src="https://img.freepik.com/fotos-gratis/natacao-passaro-em-um-lago_1161-37.jpg?t=st=1725313557~exp=1725317157~hmac=d0519ed244c6720c6948828e2d99296197f44ea666388c2ad2c6830c6799d6d5&w=740" alt="Pato-Mandarim">
                     <figcaption>Pato Mandarim</figcaption>
                 </figure>
-            </figure>
+            </div>
         </section>
     </main>
 
