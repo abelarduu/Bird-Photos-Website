@@ -16,26 +16,29 @@
 html {
     scroll-behavior: smooth;
 }
-a {
-    color: var(--text-color);
-    text-decoration: none;
-}
 
 header{
     display: flex;
-    justify-content: space-evenly;
     background-color: var(--background-color);
     color: var(--text-color);
     height: 5rem;
 }
 
+#logo {
+    display: flex;
+    width: 16rem;
+    margin-left: 2rem;
+}
+
+nav {
+    margin-right:2rem;
+}
+
+
 nav a {
-    height: 100%;
-    padding: 0 3rem;
-    font-size: 1.3rem;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 3rem 3rem;
     background-color: var(--background-color);
+    font-size: 1.3rem;
 }
 
 nav a:hover {
@@ -43,15 +46,19 @@ nav a:hover {
     background-color: var(--background-color-hover);
 }
 
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
 section {
     padding: 2rem;
 }
 
 #img-section {
-    background-image: url("https://img.freepik.com/fotos-gratis/arara-azul-close-up-em-uma-palmeira-no-habitat-natural_475641-2089.jpg?t=st=1724032311~exp=1724035911~hmac=01125b71c685b8104f5d2660b2f77d1aadcd639065e5813e659f67e223102335&w=740");
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(49, 168, 221, 0), rgba(0, 0, 0, 0.4)),
+            url("https://img.freepik.com/fotos-gratis/arara-azul-close-up-em-uma-palmeira-no-habitat-natural_475641-2089.jpg?t=st=1724032311~exp=1724035911~hmac=01125b71c685b8104f5d2660b2f77d1aadcd639065e5813e659f67e223102335&w=740") top/cover fixed;
     background-position: center;
-    background-size: cover;
-    filter: brightness(80%);
     height: 350px;
 }
 
@@ -72,7 +79,7 @@ section {
 }
 
 .text-title {
-    font-size: 50px;
+    font-size: 2rem;
 }
 
 #photo-section {
@@ -83,7 +90,7 @@ section {
 
 }
 
-#gallery .text-title {
+#gallery > .text-title, #logo {
     margin-left: 2rem;
 }
 
